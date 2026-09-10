@@ -576,7 +576,7 @@ flowchart LR
 ### Azure Monitor Architecture
 
 ```mermaid
-graph LR
+graph TB
     subgraph Sources["📡 Data Sources"]
         direction TB
         APP["Applications"]
