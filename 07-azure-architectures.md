@@ -343,7 +343,7 @@ flowchart TD
 The AAC security guidance structures defences in layers: perimeter → network → identity → data. Zero-trust requires every layer.
 
 ```mermaid
-graph TB
+graph LR
     subgraph EDGE[Perimeter and Edge]
         FD2[Azure Front Door\n+ WAF Policy]
         DDOS[DDoS Protection Standard]
